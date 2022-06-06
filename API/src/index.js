@@ -11,4 +11,5 @@ server.use(cors());
 server.use(express,json());
 server.use(usuarioController);
 server.use(animeController);
+
 server.listen(process.env.PORT,()=> console.log(`API Conectada na Porta ${process.env.PORT}`));
